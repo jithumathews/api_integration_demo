@@ -55,7 +55,6 @@ class _HomePageState extends State<HomePage> {
                   ),
                   child: Card(
                     elevation: 1,
-                    shape: Border.fromBorderSide(),
                     child: Row(
                       children: [
                         SizedBox(
