@@ -1,5 +1,4 @@
-import 'package:api_integration_demo/views/home_page.dart';
-import 'package:flutter/cupertino.dart';
+import 'package:api_integration_demo/views/splash_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,9 +14,10 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(primarySwatch: Colors.grey),
-      home: HomePage(),
+      home: SplashScreen(),
     );
   }
 }
